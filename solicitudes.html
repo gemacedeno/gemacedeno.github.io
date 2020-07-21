@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/logica.js"></script>
+
+    <title>Deportes disponibles</title>
+</head>
+
+<body onload="obtenerSolicitudes()">
+    <div class="navbar">
+        <ul>
+            <li><a href="deportesAdmin.html">GYM - VIRTUAL</a></li>
+
+            <li style="float:right"><a class="sesion" onclick="cerrarSesion()">Cerrar sesión</a></li>
+
+            <li style="float:right"><a href="acerca-de.html">Acerca de</a></li>
+
+            <li style="float:right"><a href="informacion.html">Información</a></li>
+            <li style="float:right"><a class="active" href="solicitudes.html">Ver solicitudes</a></li>
+            <li style="float:right"><a href="lista-usuarios.html">Ver lista de usuarios</a></li>
+            <li style="float:right"><a href="deportesAdmin.html">Deportes</a></li>
+
+
+            <!--<li style="float:right"><a href="lista-usuarios-inscritos.html">Usuario Inscritos</a></li>-->
+
+        </ul>
+
+    </div>
+    <h1 style="text-align: center; margin-top: 20px; color: white;">Solicitudes de usuarios</h1>
+
+    <div class="tabla-usuarios">
+        <div class="tabla-usuarios-solicitud">
+            <table id="mostrar-solicitudes">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Correo</th>
+                        <th>Deporte Solicitado</th>
+                        <th>Fecha Solicitud</th>
+                        <th>Aceptar</th>
+                        <th>Rechazar</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+
+                </tbody>
+
+
+            </table>
+            <br><br><br>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
